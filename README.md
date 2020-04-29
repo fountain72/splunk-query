@@ -21,15 +21,16 @@ usage: splunkQ [-h] [-u USER] [-s SERVER] -q QUERYCMD [-e EARLIEST] [-l LATEST]
  
 optional arguments:
   -h, --help            show this help message and exit
+  
   -u USER, --user USER  Username to run the script against.  This must be a valid NTID username
-  -s SERVER, --server SERVER
-                        Specify a Splunk Server to query
-  -q QUERYCMD, --querycommand QUERYCMD
-                        Specify a query command to use
-  -e EARLIEST, --earliest EARLIEST
-                        Specify earliest start
-  -l LATEST, --latest LATEST
-                        Specify latest
+  
+  -s SERVER, --server SERVER  Specify a Splunk Server to query
+  
+  -q QUERYCMD, --querycommand QUERYCMD. Specify a query command to use
+
+  -e EARLIEST, --earliest EARLIEST    Specify earliest start
+  
+  -l LATEST, --latest LATEST          Specify latest
                         
 + Adding default user with service account “YOUR_SERVICE_ACCOUNT”. But you still can use your NT login, when you use “ -u “ option.
 + Adding earliest and latest option. These are optional, not mandatory.
