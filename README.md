@@ -17,7 +17,7 @@ usage: splunkQ [-h] [-u USER] [-s SERVER] -q QUERYCMD [-e EARLIEST] [-l LATEST]
  
         Server has four options:
  
-`Please edit the code to add your splunk servers.`
+`*Please edit the code to add your splunk servers.*`
  
 optional arguments:
   -h, --help            show this help message and exit
@@ -31,7 +31,7 @@ optional arguments:
   -l LATEST, --latest LATEST
                         Specify latest
                         
-+ Adding default user with service account “t2cmsplunk”. But you still can use your NT login, when you use “ -u “ option.
++ Adding default user with service account “YOUR_SERVICE_ACCOUNT”. But you still can use your NT login, when you use “ -u “ option.
 + Adding earliest and latest option. These are optional, not mandatory.
 
 ### Example
