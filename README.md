@@ -17,7 +17,7 @@ usage: splunkQ [-h] [-u USER] [-s SERVER] -q QUERYCMD [-e EARLIEST] [-l LATEST]
  
         Server has four options:
  
-Please edit the code to add your splunk servers.
+`Please edit the code to add your splunk servers.`
  
 optional arguments:
   -h, --help            show this help message and exit
@@ -34,14 +34,14 @@ optional arguments:
 + Adding default user with service account “t2cmsplunk”. But you still can use your NT login, when you use “ -u “ option.
 + Adding earliest and latest option. These are optional, not mandatory.
 
-###Example
+### Example
  
-####-e-5m@m -l now  
+#### -e-5m@m -l now  
 this will add “earliest=-5m@m latest=now” into your query command if your original command doesn’t include the timeframe.
 Please note: if you give “-“ please leave no space with option “-e” or “-l”
                        “+” is fine.
 
-####-e 04/28/2020:23:00:00 -l 04/28/2020:23:00:01
+#### -e 04/28/2020:23:00:00 -l 04/28/2020:23:00:01
 This will add “earliest=04/28/2020:23:00:00 latest=04/28/2020:23:00:01” into your query command
 
  
