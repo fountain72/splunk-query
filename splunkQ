@@ -1,6 +1,5 @@
 #!/usr/local/bin/python3.7
 
-from termcolor import colored
 from argparse import RawTextHelpFormatter
 description = '''
 \n
@@ -33,9 +32,6 @@ import requests
 import re
 import sys
 import xml.etree.ElementTree as ET
-import os
-import base64
-import json
 import argparse
 import getpass
 from termcolor import colored
@@ -45,9 +41,6 @@ requests.packages.urllib3.disable_warnings()
 
 
 def splunkQ(user, password, baseurl, searchquery):
-    '''
-    This is 1st version of splunk query module
-    '''
     s = requests.session()
     username = user
     password = password
