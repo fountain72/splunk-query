@@ -30,7 +30,6 @@ description = '''
 '''
 import requests
 import re
-import sys
 import xml.etree.ElementTree as ET
 import argparse
 import getpass
