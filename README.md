@@ -1,6 +1,6 @@
 # splunk-query
 
-splunkQ --help
+**splunkQ --help**
 usage: splunkQ [-h] [-u USER] [-s SERVER] -q QUERYCMD [-e EARLIEST] [-l LATEST]
  
         This script will help you query all different splunk servers to fetch what you need.
@@ -17,7 +17,7 @@ usage: splunkQ [-h] [-u USER] [-s SERVER] -q QUERYCMD [-e EARLIEST] [-l LATEST]
  
         Server has four options:
  
-`*Please edit the code to add your splunk servers.*`
+**Please edit the code to add your splunk servers.**
  
 optional arguments:
   -h, --help            show this help message and exit
