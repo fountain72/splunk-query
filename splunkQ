@@ -20,7 +20,8 @@ description = '''
         3        => https://splunk3.ABC.com   \n
 
         -e-5m@m -l now\n
-        this will add “earliest=-5m@m latest=now” into your query command if your original command doesn’t include the timeframe.\n
+        this will add “earliest=-5m@m latest=now” into your query command if your \n
+        original command doesn’t include the timeframe.\n
         Please note: if you give value start with “-“ or "+"  please leave no space with option “-e” or “-l”\n
 
         -e 04/28/2020:23:00:00 -l 04/28/2020:23:00:01\n
